@@ -1,0 +1,15 @@
+program loves_motel;
+
+uses
+  Vcl.Forms,
+  MainView in 'views\MainView.pas' {frmMainView},
+  EntradaView in 'views\EntradaView.pas' {frmEntradaView};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMainView, frmMainView);
+  Application.Run;
+end;

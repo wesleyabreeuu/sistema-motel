@@ -1,0 +1,12 @@
+__history/
+*.~*
+*.dcu
+*.exe
+*.identcache
+*.local
+*.log
+*.tds
+*.bak
+*.dsk
+*.map
+*.sqlite
